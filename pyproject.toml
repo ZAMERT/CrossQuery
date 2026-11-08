@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "si650-retrieval"
+version = "0.1.0"
+description = "Controlled Chinese-to-English technical question retrieval"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+data = ["ir-datasets>=0.5,<0.6"]
+dense = ["sentence-transformers>=3,<6", "faiss-cpu>=1.8,<2"]
+lucene = ["pyserini>=0.44,<2"]
+eval = ["ir-measures>=0.3,<0.5"]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+si650 = "si650_retrieval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,11 @@
+{
+  "run_id": "cqadupstack_bm25_en_dev",
+  "data": "../data/cqadupstack",
+  "output": "../runs/cqadupstack_bm25_en_dev",
+  "split": "dev",
+  "method": "bm25",
+  "lexical_index": "../indexes/cqadupstack_pyserini",
+  "lexical_query": "en_orig",
+  "top_k": 1000,
+  "seed": 650
+}

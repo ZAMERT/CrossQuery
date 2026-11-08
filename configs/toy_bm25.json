@@ -1,0 +1,11 @@
+{
+  "run_id": "toy_bm25_en",
+  "data": "../data/toy",
+  "output": "../runs/toy_bm25_en",
+  "split": "dev",
+  "method": "bm25",
+  "lexical_index": "../indexes/toy_bm25",
+  "lexical_query": "en_orig",
+  "top_k": 1000,
+  "seed": 650
+}

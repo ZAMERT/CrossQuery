@@ -1,0 +1,6 @@
+{"doc_id":"unix:d1","forum":"unix","title":"Run Wireshark without root permissions","body":"Configure capture permissions to run Wireshark as a normal user on Linux."}
+{"doc_id":"unix:d2","forum":"unix","title":"Increase WSL 2 memory limit","body":"Change the memory allocated to WSL 2 using the .wslconfig file."}
+{"doc_id":"unix:d3","forum":"unix","title":"Reduce application memory usage","body":"Profile a process to reduce its memory consumption."}
+{"doc_id":"android:d1","forum":"android","title":"Disable Android application notifications","body":"Turn off notifications for a single application in Android settings."}
+{"doc_id":"android:d2","forum":"android","title":"Change Android notification sound","body":"Choose a new sound for incoming application notifications."}
+{"doc_id":"android:d3","forum":"android","title":"Extend Android battery life","body":"Reduce background activity and screen brightness."}

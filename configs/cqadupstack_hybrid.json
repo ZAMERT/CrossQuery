@@ -1,0 +1,17 @@
+{
+  "run_id": "cqadupstack_hybrid_full_dev",
+  "data": "../data/cqadupstack",
+  "variants": "../data/query_variants.jsonl",
+  "output": "../runs/cqadupstack_hybrid_full_dev",
+  "split": "dev",
+  "method": "hybrid",
+  "lexical_index": "../indexes/cqadupstack_pyserini",
+  "dense_index": "../indexes/cqadupstack_dense",
+  "lexical_query": "mt_plain_full",
+  "dense_query": "zh_full",
+  "alpha": 0.5,
+  "rrf_c": 60,
+  "top_k": 1000,
+  "query_max_length": 256,
+  "seed": 650
+}
