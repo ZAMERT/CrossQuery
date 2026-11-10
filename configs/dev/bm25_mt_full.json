@@ -1,0 +1,12 @@
+{
+  "run_id": "dev_bm25_mt_full",
+  "data": "../../data/cqadupstack",
+  "split": "dev",
+  "top_k": 1000,
+  "seed": 650,
+  "output": "../../runs/dev/bm25_mt_full",
+  "method": "bm25",
+  "lexical_index": "../../indexes/cqadupstack_pyserini",
+  "lexical_query": "mt_plain_full",
+  "variants": "../../data/query_variants.jsonl"
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "dev_bm25_mt_mixed",
+  "data": "../../data/cqadupstack",
+  "split": "dev",
+  "top_k": 1000,
+  "seed": 650,
+  "output": "../../runs/dev/bm25_mt_mixed",
+  "method": "bm25",
+  "lexical_index": "../../indexes/cqadupstack_pyserini",
+  "lexical_query": "mt_plain_mixed",
+  "variants": "../../data/query_variants.jsonl"
+}

@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: si650-retrieval
+Version: 0.1.0
+Summary: Controlled Chinese-to-English technical question retrieval
+Requires-Python: >=3.10
+Requires-Dist: numpy<3,>=1.24
+Provides-Extra: data
+Requires-Dist: ir-datasets<0.6,>=0.5; extra == "data"
+Provides-Extra: dense
+Requires-Dist: sentence-transformers<6,>=3; extra == "dense"
+Requires-Dist: faiss-cpu<2,>=1.8; extra == "dense"
+Provides-Extra: lucene
+Requires-Dist: pyserini<2,>=0.44; extra == "lucene"
+Provides-Extra: eval
+Requires-Dist: ir-measures<0.5,>=0.3; extra == "eval"
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"

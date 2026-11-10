@@ -1,0 +1,9 @@
+{
+  "run_id": "dev_random_s4",
+  "data": "../../data/cqadupstack",
+  "split": "dev",
+  "top_k": 1000,
+  "seed": 4,
+  "output": "../../runs/dev/random_s4",
+  "method": "random"
+}

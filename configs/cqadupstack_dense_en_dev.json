@@ -1,0 +1,13 @@
+{
+  "run_id": "cqadupstack_dense_en_dev",
+  "data": "../data/cqadupstack",
+  "output": "../runs/cqadupstack_dense_en_dev",
+  "split": "dev",
+  "method": "dense",
+  "dense_index": "../indexes/cqadupstack_dense",
+  "dense_query": "en_orig",
+  "top_k": 1000,
+  "query_max_length": 256,
+  "device": "cuda",
+  "seed": 650
+}

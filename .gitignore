@@ -18,5 +18,7 @@ cache/
 runs/
 logs/
 outputs/
+**/**.sbatch
+
 
 # Keep reviewed tables and figures under reports/ for version control.

@@ -1,0 +1,14 @@
+{
+  "run_id": "dev_dense_mt_full",
+  "data": "../../data/cqadupstack",
+  "split": "dev",
+  "top_k": 1000,
+  "seed": 650,
+  "output": "../../runs/dev/dense_mt_full",
+  "method": "dense",
+  "dense_index": "../../indexes/cqadupstack_dense",
+  "dense_query": "mt_plain_full",
+  "query_max_length": 256,
+  "device": "cuda",
+  "variants": "../../data/query_variants.jsonl"
+}

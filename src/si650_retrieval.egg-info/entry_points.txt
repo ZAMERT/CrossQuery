@@ -1,0 +1,2 @@
+[console_scripts]
+si650 = si650_retrieval.cli:main
