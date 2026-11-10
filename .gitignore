@@ -1,0 +1,22 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Downloaded and generated research artifacts
+data/
+indexes/
+models/
+cache/
+runs/
+logs/
+outputs/
+
+# Keep reviewed tables and figures under reports/ for version control.
